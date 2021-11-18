@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background: url(https://cdnb.artstation.com/p/assets/images/images/026/963/083/large/daniela-capo-gravityfalls-backgroundart.jpg?1590201710&dl=1);
+    background-size: cover;
+}
+.snoop_dog{
+    position: relative;
+    top: 400px;
+    left: 84px;
+    width: 88%;
+    height: 100px;
+    border: 2px solid black;
+    background-color: rgb(214, 187, 36);
+    border-radius: 40px;
+    background-attachment: scroll;
+}
+.head{
+    position: absolute;
+    top: -20px;
+    left: -7px;
+    background-color: rgb(214, 187, 36);
+    width: 120px;
+    height: 60px;
+    border-radius: 200px 200px 0px 0px;
+    border: 2px solid black;
+    border-bottom-style:hidden;
+}
+.ears_1{
+    transform: rotate(8deg);
+    position: absolute;
+    background-color:rgb(214, 187, 36); 
+    top: 46px;
+    left: -2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 0px 0px 200px 200px;
+    border: 2px solid black;
+    border-top-style: hidden;
+}
+.ears_2{
+    transform: rotate(-8deg);
+    position: absolute;
+    background-color:rgb(214, 187, 36); 
+    top: 46px;
+    left: 98px;
+    height: 20px;
+    width: 20px;
+    border-radius: 0px 0px 200px 200px;
+    border: 2px solid black;
+    border-top-style: hidden;
+}
+.eyes_1{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 22px;
+    left: 24px;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid black;
+    /* border-left: 5px solid black; */
+    -webkit-box-shadow: -2px 0px 1px 2px #000000; 
+    box-shadow: -2px 0px 1px 3px #000000;
+}
+.eyes_2{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 22px;
+    left: 70px;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid black;
+    /* border-left: 5px solid black; */
+    -webkit-box-shadow: -2px 0px 1px 2px #000000; 
+    box-shadow: -2px 0px 1px 3px #000000;
+}
+.nose{
+    height: 20px;
+    width: 38px;
+    border: 3px solid black;
+    border-radius: 100px 100px 0px 0px;
+    border-bottom-style: hidden;
+    position: absolute;
+    background-color:rgb(214, 187, 36); 
+    top: 36px;
+    left: 37px;
+    z-index: 4;
+}
+.nose_1{
+    width: 15px;
+    height: 15px;
+    border-radius: 0px 0px 200px 200px;
+    border: 3px solid black;
+    border-top-style: hidden;
+    position: absolute;
+    top: 53px;
+    left: 37px;
+}
+.nose_2{
+    width: 15px;
+    height: 15px;
+    border-radius: 0px 0px 200px 200px;
+    border: 3px solid black;
+    border-top-style: hidden;
+    position: absolute;
+    top: 53px;
+    left: 60px;
+}
+.nose_3{
+    position: absolute;
+    top: 50px;
+    left: 51px;
+    z-index: 5;
+    height: 20px;
+    width: 15px;
+    background-color: black;
+    clip-path: polygon(20% 0%, 80% 0%, 80% 22%, 80% 59%, 66% 59%, 13% 59%, 0 39%, 0% 20%);
+    border-top-right-radius: 7px;
+}
+.xvost{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 16px solid rgb(214, 187, 36);
+    border-top-style: hidden;
+    /* border-bottom-style: hidden; */
+    border-left-style: hidden;
+    position: absolute;
+    top: -24px;
+    right: -28px;
+    transform: rotate(16deg);
+    -webkit-box-shadow: 6px -1px 0px 0px #000000; 
+box-shadow: 7px -1px 0px 0px #000000;  
+   
+}
+.xvost::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 34px;
+    width: 17px;
+    border: 4px solid black;
+    border-radius: 50%;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    top: 10px;
+    right: -1px;
+    transform: rotate(24deg);
+
+}
+.legs .legs_1{
+    height: 68px;
+    width: 20px;
+    /* border-radius: 10px; */
+    border: 2px solid black;
+    background-color: rgb(214, 187, 36);
+    position: absolute;
+    bottom: -54px;
+    left: 80px;
+    border-top-style: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.legs .legs_1::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    top: 50px;
+    left: -14px;
+    border: 2px solid black;
+    border-right-style: hidden;
+    background-color: rgb(214, 187, 36);
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 13px;
+    
+}
+.legs .legs_2{
+    height: 36px;
+    width: 20px;
+    /* border-radius: 10px; */
+    border: 2px solid black;
+    background-color: rgb(214, 187, 36);
+    position: absolute;
+    bottom: -38px;
+    left: 47px;
+    border-top-style: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.legs .legs_2::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    top: 18px;
+    left: -14px;
+    border: 2px solid black;
+    border-right-style: hidden;
+    background-color: rgb(214, 187, 36);
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 13px;
+    
+}
+.front .legs_3{
+    height: 68px;
+    width: 20px;
+    /* border-radius: 10px; */
+    border: 2px solid black;
+    background-color: rgb(214, 187, 36);
+    position: absolute;
+    bottom: -54px;
+    right: 40px;
+    border-top-style: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.front .legs_3::before{
+content: " ";
+display: block;
+position: absolute;
+width: 22px;
+z-index: 4;
+    height: 16px;
+    top: 50px;
+    left: -14px;
+    border: 2px solid black;
+    border-right-style: hidden;
+    background-color: rgb(214, 187, 36);
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 13px;
+}
+.front .legs_4{
+    height: 51px;
+    width: 20px;
+    /* border-radius: 10px; */
+    border: 2px solid black;
+    background-color: rgb(214, 187, 36);
+    position: absolute;
+    bottom: -53px;
+    right: 67px;
+    border-top-style: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.front .legs_4::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    top: 33px;
+    left: -14px;
+    border: 2px solid black;
+    border-right-style: hidden;
+    background-color: rgb(214, 187, 36);
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 13px;
+    
+}
