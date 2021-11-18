@@ -4,8 +4,7 @@
     /* box-sizing: border-box; */
 }
 body{
-    background: url(https://cdnb.artstation.com/p/assets/images/images/026/963/083/large/daniela-capo-gravityfalls-backgroundart.jpg?1590201710&dl=1);
-    background-size: cover;
+    background-color: rgb(125, 160, 28);
 }
 .snoop_dog{
     position: relative;
